@@ -3,9 +3,17 @@ body {
     height: 100%;
     width: 100%;
     background: #160c34;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     margin: 0;
     color: aliceblue;
+    font-family: 'Sora', sans-serif;
+}
+
+.header {
+    position: absolute;
+    /* overflow: hidden; */
+    width: 100%;
+    height: 925px;
 }
 
 .header-up-line {
@@ -28,15 +36,17 @@ body {
     border: 0;
     border-radius: 3px;
     cursor: pointer;
+    color: #313131;
+    background: rgb(206, 206, 206);
     box-shadow: 0px 0px 3px #160c34;
 }
 
 .header-main-line button.donate-button {
-    position: absolute;
     font-size: 25px;
-    float: right;
     padding: 25px 30px;
     margin: 0;
+    position: absolute;
+    float: right;
     bottom: -8px;
     right: 10px;
     color: #fdfdfd;
@@ -53,4 +63,47 @@ body {
     width: 100%;
     height: 800px;
     bottom: 125px;
+    box-shadow: 0px 0px 100px #000000;
+}
+
+.header-img div {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    top: 200px;
+    background: #3f3f3f9d;
+    box-shadow: 0px 0px 50px #414141;
+}
+
+.header-img h1 {
+    font-size: 50px;
+}
+
+.header-img button {
+    position: relative;
+    font-size: 25px;
+    padding: 25px 30px;
+    margin: 0;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #313131;
+    background: rgb(206, 206, 206);
+    box-shadow: 0px 0px 3px #160c34;
+}
+
+footer {
+    position: absolute;
+    background: #0b0d17;
+    width: 100%;
+    /* height: 10%; */
+    z-index: 3;
+    bottom: 0;
+    text-align: center;
+}
+
+footer h1 {
+    font-family: 'Lobster Two', cursive;
+    color: #fc5f51;
 }
