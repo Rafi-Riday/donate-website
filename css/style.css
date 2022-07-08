@@ -186,7 +186,12 @@ div #selected.money-option {
     height: 100%;
 }
 
-
+#donor .donor-item .donor-info {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    border: 1px solid white;
+}
 
 
 #post {
