@@ -161,7 +161,7 @@ div #selected.money-option {
 
 #donor {
     position: relative;
-    height: 550px;
+    height: 500px;
     width: 100%;
     text-align: center;
 }
@@ -201,6 +201,50 @@ div #selected.money-option {
     background: linear-gradient(90deg, red, #ff5959);
     display: inline-block;
     border-radius: 10px;
+}
+
+#progress {
+    position: relative;
+    width: 100%;
+    height: 130px;
+    background: #ffffff28;
+    text-align: center;
+}
+
+#progress #progress-cont {
+    position: relative;
+    width: 70%;
+    height: 150px;
+    display: inline-block;
+    margin: 23px 0 0;
+}
+
+#progress #progress-cont .progress-bar {
+    position: relative;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    width: 80%;
+    height: 30px;
+    display: inline-block;
+}
+
+#progress #progress-cont .progress-goal {
+    position: relative;
+    border-radius: 5px;
+    width: 80%;
+    height: 30px;
+    display: inline-block;
+    color: #d9d9d9;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#progress #progress-cont .progress-bar .progress-bar-positive {
+    position: relative;
+    height: 100%;
+    width: 30%;
+    text-align: left;
+    background: linear-gradient(90deg, #53ffff, #b382fc);
 }
 
 #post {
@@ -377,7 +421,7 @@ div #selected.money-option {
     position: relative;
     height: 100%;
     width: 60%;
-    background: #d9d9d9;
+    background: linear-gradient(90deg, #cacaca, #ebebeb);
     border: 0;
     border-radius: 5px 0 0 5px;
 }
