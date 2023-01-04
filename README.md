@@ -5,5 +5,5 @@ Its really a static website, not even responsive for phone-view, Just tried some
 - CSS
 - What? Expecting more? 😐
 
-#### Full Page ScreenShot:
-![ alt text for screen readers](./full_page_ss.jpg "Text to show on mouseover")
+#### Full Page Screenshot:
+![Full Page Screenshot](./full_page_ss.png "Full Page Screenshot")
